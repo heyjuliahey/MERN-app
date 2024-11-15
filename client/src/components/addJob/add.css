@@ -1,0 +1,80 @@
+.addJob {
+    width: 25%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.backLink {
+   color: gold;
+   
+}
+
+.addJobForm {
+    margin-top: 20px;
+}
+
+.addJobForm .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addJobForm .inputGroup label {
+    margin-bottom: 5px;
+}
+
+.addJobForm .inputGroup input {
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.addJobForm .inputGroup button {
+    border: 0;
+    outline: none;
+    background-color: gold;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    cursor:pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    margin-top: 20px;
+}
+
+.addJobForm .salaryGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.addJobForm .salaryGroup label {
+    margin-bottom: 5px;
+}
+
+.addJobForm .salaryContainer {
+    display: flex;
+    align-items: center;
+}
+
+.addJobForm .salaryContainer input{
+    width: 70px;
+}
+
+.addJobForm .salaryContainer label {
+    margin-right: 5px;
+}
+
+.addJobForm .salaryContainer input {
+    margin-right: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.addJob h3 {
+    margin-top: 10px;
+}
