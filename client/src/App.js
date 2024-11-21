@@ -1,5 +1,5 @@
 import "./App.css";
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Job from "./components/getJob/Job"
 import Add from "./components/addJob/Add"
 import Edit from "./components/updateJob/Edit"
